@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    <title>Linked List</title>
+</head>
+<body>
+    <div id="header">
+        <h1>IMAGE SLIDER</h1>
+    </div>
+    <div id="container">
+        <div id="train-container">
+            <div id="train-images">
+                <img class="compartment-image" src="assets/download (1).jpeg" alt="random">
+                <img src="assets/download (2).jpeg" alt="">
+                <img src="assets/download.jpeg" alt="">
+                <img src="assets/images (1).jpeg" alt="">
+                <img src="assets/images (2).jpeg" alt="">
+                <img src="assets/images (3).jpeg" alt="">
+                <img src="assets/images.jpeg" alt="">
+                <img src="assets/images (4).jpeg" alt="">
+                <img src="assets/images (5).jpeg" alt="">
+                <img src="assets/images (6).jpeg" alt="">
+                <img src="assets/images.png" alt="">
+                <img src="assets/images (1).png" alt="">
+                <img src="assets/images (2).png" alt="">
+            </div>
+        </div>
+        <div id="nav-buttons">
+            <button onclick="moveBackward()">&lt; Back</button>
+            <button onclick="moveForward()">Next &gt;</button>
+        </div>
+        <div id="compartment-list">
+            <h2>Random Images (Linked List):</h2>
+            <ul id="compartments">
+                <li>Main image</li>
+            </ul>
+            <input type="text" id="compartment-name" placeholder="Enter any number"> <br> <br>
+            <button onclick="addCompartment()">Insert Image</button>
+            <button onclick="deleteCompartment()">Delete Image</button>
+            <h2>Instructions:</h2>
+            <p id="instruction">Enter a number and click "Insert Image" to add a new image. Delete image will only delete the images from the end.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

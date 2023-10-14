@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .compartment-image {
+        max-width: 80%;
+    }
+    #compartment-name {
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    button {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+    li {
+        font-size: 20px;
+    }
+}
